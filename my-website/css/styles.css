@@ -28,6 +28,8 @@ body {
     font-size: 2.4rem;
     line-height: 1.5;
     color: var(--color-body);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1, h2, h3 {
@@ -613,6 +615,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -624,7 +627,9 @@ a {
     color: #7b858b;
 }
 
-.block--dark h1,h2,h3 {
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
     color: #fff
 }
 
@@ -639,7 +644,7 @@ a {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
