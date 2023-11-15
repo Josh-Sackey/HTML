@@ -20,7 +20,7 @@
 }
 
 html {
-    font-size: 62.5;
+    font-size: 62.5%;
 }
 
 body {
@@ -195,10 +195,10 @@ a {
     border: 0;
     cursor: pointer;
     font-size: 1.8rem;
-    font-weight: 600rem;
+    font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -527,7 +527,7 @@ a {
     }
 
     .testimonial .quote {
-        margin-left: 6rems;
+        margin-left: 6rem;
     }
 }
 
@@ -757,8 +757,9 @@ a {
 }
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem;
     font-weight: 600;
